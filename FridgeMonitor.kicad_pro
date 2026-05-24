@@ -60,7 +60,60 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "courtyards_overlap|103365000|89251236|323b64f6-eb15-414d-b72b-d8fcf9d17c58|4da3dbbe-f0f9-4549-a996-c67f10b19bde",
+          ""
+        ],
+        [
+          "courtyards_overlap|36353257|84065000|af75d832-400f-44b2-bb1d-fc49ef65feec|e2ff1a46-6a2b-49fd-8f7d-5d2150cec27d",
+          "Entweder Stecker oder Schraube"
+        ],
+        [
+          "npth_inside_courtyard|104500000|86000000|84278c8d-d9e5-4756-87b7-95ccc9a286ca|4da3dbbe-f0f9-4549-a996-c67f10b19bde",
+          ""
+        ],
+        [
+          "npth_inside_courtyard|33500000|86000000|39df6747-b359-4354-955e-bf788632f407|e2ff1a46-6a2b-49fd-8f7d-5d2150cec27d",
+          "Entweder Stecker oder Schraube"
+        ],
+        [
+          "pth_inside_courtyard|36830000|86360000|d938e2aa-6e75-4f62-986b-31234eefc27d|af75d832-400f-44b2-bb1d-fc49ef65feec",
+          "Entweder Stecker oder Schraube"
+        ],
+        [
+          "silk_edge_clearance|102980000|92000000|acac3b46-ddbf-4886-8e48-6b69f9aa216f|f1eb4056-2c2a-4a01-8a73-2b58481760da",
+          ""
+        ],
+        [
+          "silk_edge_clearance|34180000|92000000|acac3b46-ddbf-4886-8e48-6b69f9aa216f|16aaf982-39a3-49bd-bdf6-c12851a181b6",
+          ""
+        ],
+        [
+          "silk_edge_clearance|49640000|92000000|acac3b46-ddbf-4886-8e48-6b69f9aa216f|d400c1f3-e8c8-4dbd-a34f-92204e6a32b4",
+          ""
+        ],
+        [
+          "silk_edge_clearance|51960000|92000000|acac3b46-ddbf-4886-8e48-6b69f9aa216f|60a5a899-976d-4571-91a6-b989f0406c3b",
+          ""
+        ],
+        [
+          "silk_edge_clearance|67420000|92000000|acac3b46-ddbf-4886-8e48-6b69f9aa216f|bc7afb31-82ba-4790-925d-eeeb25f6fd57",
+          ""
+        ],
+        [
+          "silk_edge_clearance|69740000|92000000|acac3b46-ddbf-4886-8e48-6b69f9aa216f|365add23-0678-474a-bca5-8622f56001dd",
+          ""
+        ],
+        [
+          "silk_edge_clearance|85200000|92000000|acac3b46-ddbf-4886-8e48-6b69f9aa216f|37f828fe-3c55-4235-b8a0-6aad37e65da0",
+          ""
+        ],
+        [
+          "silk_edge_clearance|87520000|92000000|acac3b46-ddbf-4886-8e48-6b69f9aa216f|727c89bd-9ef1-4759-ad04-6b2610335420",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -647,7 +700,7 @@
         "uuid": "16b7284a-799c-4c2f-acd0-53a3f6eac8c0"
       }
     ],
-    "used_designators": "JP1-4,#PWR6-8,#PWR29,Q1,R5-6",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
