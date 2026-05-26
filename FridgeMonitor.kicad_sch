@@ -5,6 +5,187 @@
 	(uuid "16b7284a-799c-4c2f-acd0-53a3f6eac8c0")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:Conn_01x02_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Pin"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x02_Pin_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:USB_B_Micro"
 			(pin_names
 				(offset 1.016)
@@ -3229,6 +3410,12 @@
 		(uuid "ab9a8b9f-a865-41e0-a2a6-62600ac4000c")
 	)
 	(junction
+		(at 243.84 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4807e82-c29a-4751-a484-13e7b7bc5d0a")
+	)
+	(junction
 		(at 143.51 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3251,6 +3438,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "df7f13f6-f11e-40d9-82e5-d588613a1cc0")
+	)
+	(junction
+		(at 238.76 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e01f4cdb-2a03-439d-85a3-213f67e6382c")
 	)
 	(junction
 		(at 80.01 78.74)
@@ -3306,6 +3499,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 40.64) (xy 217.17 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fdc8509-f59e-4ba7-885f-6a8c3857103a")
+	)
+	(wire
+		(pts
 			(xy 87.63 73.66) (xy 85.09 73.66)
 		)
 		(stroke
@@ -3336,16 +3539,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 95.25) (xy 163.83 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d2e8619-e638-49dc-82a2-2d8363d79cf2")
-	)
-	(wire
-		(pts
 			(xy 219.71 48.26) (xy 226.06 48.26)
 		)
 		(stroke
@@ -3373,16 +3566,6 @@
 			(type default)
 		)
 		(uuid "1f3e8f4d-1d9d-4646-828d-1a06ba753d0d")
-	)
-	(wire
-		(pts
-			(xy 217.17 17.78) (xy 217.17 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20e195ab-d726-4132-8293-c7865e9ca0cc")
 	)
 	(wire
 		(pts
@@ -3456,6 +3639,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 133.35) (xy 247.65 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "444600ce-41a5-4970-b0b4-2d9325b4cdc4")
+	)
+	(wire
+		(pts
 			(xy 165.1 76.2) (xy 170.18 76.2)
 		)
 		(stroke
@@ -3463,6 +3656,16 @@
 			(type default)
 		)
 		(uuid "4476e844-e164-4470-913d-e1220164d23a")
+	)
+	(wire
+		(pts
+			(xy 238.76 135.89) (xy 243.84 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a52db3e-4460-4fc0-8808-3d31a7ce484b")
 	)
 	(wire
 		(pts
@@ -3496,16 +3699,6 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 40.64) (xy 217.17 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57fae7df-3014-4d27-a16b-e4a7c0a984bc")
-	)
-	(wire
-		(pts
 			(xy 135.89 76.2) (xy 148.59 76.2)
 		)
 		(stroke
@@ -3536,6 +3729,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 87.63) (xy 215.9 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fa2ae58-2f1a-459c-a973-aafffc0aef6c")
+	)
+	(wire
+		(pts
 			(xy 210.82 95.25) (xy 220.98 95.25)
 		)
 		(stroke
@@ -3556,16 +3759,6 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 60.96) (xy 217.17 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75437f7c-272d-4e84-acbf-d5f45efc8461")
-	)
-	(wire
-		(pts
 			(xy 212.09 25.4) (xy 219.71 25.4)
 		)
 		(stroke
@@ -3573,6 +3766,16 @@
 			(type default)
 		)
 		(uuid "787150e7-3d3b-4555-ab08-5bafffbd3272")
+	)
+	(wire
+		(pts
+			(xy 156.21 95.25) (xy 163.83 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c528bab-4ea7-451a-9e74-13948c82ca40")
 	)
 	(wire
 		(pts
@@ -3663,6 +3866,16 @@
 			(type default)
 		)
 		(uuid "9fda121b-e6f0-4864-8f49-8b1ab9fc46b6")
+	)
+	(wire
+		(pts
+			(xy 224.79 135.89) (xy 238.76 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a80dce4e-98be-4811-9288-665bd0b80949")
 	)
 	(wire
 		(pts
@@ -3796,6 +4009,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 135.89) (xy 247.65 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d976ea5f-bcd7-4ba9-98f1-d1203e9345c1")
+	)
+	(wire
+		(pts
 			(xy 143.51 86.36) (xy 151.13 86.36)
 		)
 		(stroke
@@ -3803,16 +4026,6 @@
 			(type default)
 		)
 		(uuid "dae17932-b1c2-41bd-9dd5-64b6f1d3145b")
-	)
-	(wire
-		(pts
-			(xy 215.9 87.63) (xy 215.9 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd41051c-45c8-47a6-b1f5-5d7c8bf30922")
 	)
 	(wire
 		(pts
@@ -3843,6 +4056,16 @@
 			(type default)
 		)
 		(uuid "e9f57064-3c26-4b56-8c47-2561448fa9d7")
+	)
+	(wire
+		(pts
+			(xy 217.17 17.78) (xy 217.17 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebff9cc6-26e8-44d1-b705-461c269bbe16")
 	)
 	(wire
 		(pts
@@ -3926,6 +4149,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 60.96) (xy 217.17 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbb04cdb-37c8-4ed1-876a-f75d705fde78")
+	)
+	(wire
+		(pts
 			(xy 41.91 147.32) (xy 49.53 147.32)
 		)
 		(stroke
@@ -3944,16 +4177,6 @@
 		)
 		(uuid "0db9878b-4583-4e30-9aff-0646e6685c44")
 	)
-	(label "V_sensors"
-		(at 212.09 17.78 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "10c84432-97f4-4789-89b8-b596ad4575ca")
-	)
 	(label "1-Wire"
 		(at 219.71 22.86 0)
 		(effects
@@ -3965,14 +4188,14 @@
 		(uuid "28c687d4-7ee6-436d-84b7-931d9d7d1b8c")
 	)
 	(label "V_sensors"
-		(at 163.83 95.25 0)
+		(at 217.17 40.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "31235b49-f413-4e7e-b9af-0dec371bfc03")
+		(uuid "656c7fd9-fe90-4bb5-9412-8de46948dd64")
 	)
 	(label "1-Wire"
 		(at 218.44 66.04 0)
@@ -3983,6 +4206,26 @@
 			(justify left bottom)
 		)
 		(uuid "665029b7-d66c-4eb1-a85e-2c5c29acb329")
+	)
+	(label "V_sensors"
+		(at 217.17 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7e180291-7524-47ee-9955-47831c67c685")
+	)
+	(label "V_sensors"
+		(at 215.9 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7ee8232b-0d7f-4666-bab2-6883cb1f7fff")
 	)
 	(label "1-Wire"
 		(at 219.71 45.72 0)
@@ -4003,6 +4246,26 @@
 			(justify left bottom)
 		)
 		(uuid "ca3211a4-2a0a-4e9f-b89f-0f29dc6c0557")
+	)
+	(label "V_sensors"
+		(at 217.17 17.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d26ee848-1e20-4ae8-bf31-b538b12b7d42")
+	)
+	(label "V_sensors"
+		(at 163.83 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fe3b79cb-1c2a-4014-9bf3-70e248d04629")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -4237,6 +4500,91 @@
 			(project "FridgeMonitor"
 				(path "/16b7284a-799c-4c2f-acd0-53a3f6eac8c0"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 252.73 133.35 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e4fa6e5-6434-43d2-a802-1044c9a062af")
+		(property "Reference" "J5"
+			(at 255.27 132.0799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 255.27 134.6199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Phoenix_MC_HighVoltage:PhoenixContact_MC_1,5_3-G-5.08_1x03_P5.08mm_Horizontal"
+			(at 252.73 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 252.73 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "ae419e54-bbf3-4e3d-ace0-56bd59c1e088")
+		)
+		(pin "2"
+			(uuid "c50a2d37-a776-4d72-b5a8-c03cc8c68512")
+		)
+		(pin "1"
+			(uuid "f0bfb42f-af85-4a03-98c8-8ce75aa34e7b")
+		)
+		(instances
+			(project "FridgeMonitor"
+				(path "/16b7284a-799c-4c2f-acd0-53a3f6eac8c0"
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -4478,6 +4826,85 @@
 			(project "FridgeMonitor"
 				(path "/16b7284a-799c-4c2f-acd0-53a3f6eac8c0"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 247.65 130.81 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "15cc73a5-a9d0-4218-9dcc-23fe2c34dd2c")
+		(property "Reference" "#PWR033"
+			(at 241.3 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 243.84 130.8099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 247.65 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e9e91d2c-c21a-473c-8b19-f0bafe29c5ec")
+		)
+		(instances
+			(project "FridgeMonitor"
+				(path "/16b7284a-799c-4c2f-acd0-53a3f6eac8c0"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -5074,6 +5501,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 243.84 143.51 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "29f24625-9af0-4a83-906a-4d654e2e3531")
+		(property "Reference" "#PWR032"
+			(at 243.84 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 243.84 148.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 243.84 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e173d7bd-fd89-46d9-8aa6-194f4a39b2cc")
+		)
+		(instances
+			(project "FridgeMonitor"
+				(path "/16b7284a-799c-4c2f-acd0-53a3f6eac8c0"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 226.06 72.39 0)
 		(unit 1)
@@ -5151,6 +5656,88 @@
 			(project "FridgeMonitor"
 				(path "/16b7284a-799c-4c2f-acd0-53a3f6eac8c0"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 238.76 139.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "388f06ac-f22a-4863-b6f3-75cdd4eb28d4")
+		(property "Reference" "C13"
+			(at 231.648 139.192 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_Polarized"
+			(at 224.282 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
+			(at 239.7252 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 238.76 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b3938f80-11ad-46c3-a1b3-0f42cdd578a0")
+		)
+		(pin "2"
+			(uuid "f7e561b7-fd0c-4b5c-9ffe-1f1f336b976d")
+		)
+		(instances
+			(project "FridgeMonitor"
+				(path "/16b7284a-799c-4c2f-acd0-53a3f6eac8c0"
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -6204,6 +6791,84 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 238.76 143.51 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7708f81a-53b4-41b0-8c67-aac63912476e")
+		(property "Reference" "#PWR031"
+			(at 238.76 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 238.76 148.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 238.76 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "12cb87ad-9511-4495-bfbb-425630157f66")
+		)
+		(instances
+			(project "FridgeMonitor"
+				(path "/16b7284a-799c-4c2f-acd0-53a3f6eac8c0"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 229.87 90.17 270)
 		(unit 1)
 		(body_style 1)
@@ -6778,6 +7443,86 @@
 			(project "FridgeMonitor"
 				(path "/16b7284a-799c-4c2f-acd0-53a3f6eac8c0"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 219.71 133.35 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "96ce09b0-455b-43f5-9013-1363557f8d43")
+		(property "Reference" "J8"
+			(at 220.345 128.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 220.345 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 219.71 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f9438069-31af-44e8-bf81-d5e180511f99")
+		)
+		(pin "1"
+			(uuid "2e57f02c-b2e6-405a-9879-fe44361334f0")
+		)
+		(instances
+			(project "FridgeMonitor"
+				(path "/16b7284a-799c-4c2f-acd0-53a3f6eac8c0"
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -8235,6 +8980,89 @@
 			(project "FridgeMonitor"
 				(path "/16b7284a-799c-4c2f-acd0-53a3f6eac8c0"
 					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 243.84 139.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dee1f6e5-a15c-492a-850a-ee18ef3e25e8")
+		(property "Reference" "C14"
+			(at 247.65 138.4299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 247.65 140.9699 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 244.8052 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 243.84 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e13d110e-bcd3-4277-acd9-ab9db1339335")
+		)
+		(pin "1"
+			(uuid "5353e575-d438-44bd-9027-234116695014")
+		)
+		(instances
+			(project "FridgeMonitor"
+				(path "/16b7284a-799c-4c2f-acd0-53a3f6eac8c0"
+					(reference "C14")
 					(unit 1)
 				)
 			)
