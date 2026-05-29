@@ -3876,6 +3876,12 @@
 		(uuid "46ec9e84-5dec-402e-8d34-ef32b3d950f4")
 	)
 	(junction
+		(at 137.16 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "684128fc-2c8a-48cd-bd81-4fe154b97eec")
+	)
+	(junction
 		(at 44.45 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4102,6 +4108,16 @@
 			(type default)
 		)
 		(uuid "1903f7fa-a390-436f-adce-110e31d108e9")
+	)
+	(wire
+		(pts
+			(xy 137.16 83.82) (xy 137.16 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1abb564d-5471-4ea2-8876-99b0263924c4")
 	)
 	(wire
 		(pts
@@ -4342,6 +4358,16 @@
 			(type default)
 		)
 		(uuid "6b6afc8e-5569-44b3-8c1c-ad52fc8eac96")
+	)
+	(wire
+		(pts
+			(xy 137.16 71.12) (xy 156.21 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e44e6a3-f442-4f47-af35-498206459225")
 	)
 	(wire
 		(pts
@@ -4685,7 +4711,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 71.12) (xy 156.21 71.12)
+			(xy 135.89 71.12) (xy 137.16 71.12)
 		)
 		(stroke
 			(width 0)
@@ -9480,6 +9506,84 @@
 			(project "FridgeMonitor"
 				(path "/16b7284a-799c-4c2f-acd0-53a3f6eac8c0"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 137.16 83.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3158779-549b-42e2-b3e8-fdb055bdf209")
+		(property "Reference" "#PWR042"
+			(at 137.16 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 137.16 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 137.16 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d0a28237-27a5-4714-bd6d-769ad3043816")
+		)
+		(instances
+			(project "FridgeMonitor"
+				(path "/16b7284a-799c-4c2f-acd0-53a3f6eac8c0"
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
